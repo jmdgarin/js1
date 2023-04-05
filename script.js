@@ -1,66 +1,129 @@
-// 1
+//console.log("Hello World");
+
+// Assign a variable for first name, last name, age, and hobbies using the proper naming convention.
+
+/*
+let  person ={
+    firstName: "John",
+    lastName:"Smith",
+    age: 30,
+    hobbies:[`Biking`,`Mountain Climbing`,`Swimming`],
+};
+
+    console.log(person);
+*/
+
+// Create a constant variable for a city, house number, state, and street.
+
+/*const place = {
+    city: "Lincoln",
+    houseNumber: 32,
+    state: "Nebraska",
+    street: "Washington",
+}
+
+    console.log(`city: ${place.city}`);
+    console.log(`House Number: ${place.houseNumber}`);
+    console.log(`State: ${place.state}`);
+    console.log(`Street: ${place.street}`);
+*/
+
+
+// Create a function for User Information, Hobbies, and Relationship Status.
+
+/* 
+    function user(fullName, age,){
+        console.log(`${fullName}, is ${age} years of age`);
+
+    }
+    user("John Smith", 30);
+
+    function user(fullName, age,){
+        console.log(`${fullName}, is ${age} years of age`);
+
+    }
+    user("John Smith", 30);
+
+
+    function stat(Status){
+        console.log(`His relation ship statues: ${Status}`);
+
+    }
+    stat("");
+    const relationshipStatus = true;
+    console.log(relationshipStatus);
+
+    */
+
+// Create a Switch Statement that accepts the colors: Black, Violet, and Pink.
+
+/*
+let color = prompt ("Enter your color");
+
+switch (color) 
+{
+    case (color = "BLACK", "black"):
+        console.log("Black");
+        break;
+
+    case (color = "Violet", "VIOLET"):
+        console.log("Violet");
+        break;
+
+    case (color = "Pink", "PINK"):
+        console.log("Pink");
+        break;
+
+    default:
+        console.log("Invalid color");
+}
+
+*/
 
 
 // Create a function that will accept a number, if the number given by the user is an odd number, display "odd number". If even number, display "even number".
 
-// let number = prompt ("Enter your number");
+/*
+let number = prompt ("Enter your Number");
 
-// function numberCheck (number){
-//     if (number) diko alam operator maam
-//     {
-//         console.log("odd number");
-//     }
-//     else{
-//         console.log("even number");
-//     }
-// }
+function yourNumber (number)
+{
+    if (number %=2 ) 
+    {
+        console.log ("odd number");
+    } 
+    else
+    {
+        console.log ("even number");
+    }
+}
 
-
-// Create a Switch Statement that accepts the colors: Black, Violet, and Pink.
-
-
-
-
-// Put the conditional statement inside the function.
-// Ensure that the proper NAMING STANDARD is followed.
-// Create a Switch Statement that accepts the colors: Black, Violet, and Pink.
-// Lowercase and Uppercase letters must be accepted
+*/
 
 
-// let color = prompt ("Enter your color");
+// Create a prompt that will let the user enter values from 0 to 20.
 
-// switch (color) 
-// {
-//     case (color = "BLACK", "black"):
-//         console.log("Black");
-//         break;
+/*
+let num = prompt("Enter a number between 0 - 20:");
 
-//     case (color = "Violet", "VIOLET"):
-//         console.log("Violet");
-//         break;
+function numbers (num) {
+    if (num <= 20) {
+        console.log ("Valid");
+    } else {
+        console.log ("Invalid");
+    }
+}
+    numbers(num);
+*/
 
-//     case (color = "Pink", "PINK"):
-//         console.log("Pink");
-//         break;
+// Create a loop where it will count from 20 to 0.
 
-//     default:
-//     console.log("Invalid color");
+/*
+    let count = 20;
+    for (count; count >= 0; count--)
+{
+    console.log(count);
+}
+*/
 
-// }
 
-
-// Create a function that will accept a number, if the number given by the user is an odd number, display "odd number". If even number, display "even number".
-// Before logging an odd or even number, check the input of the user. If the user input is a string such as "one", "two", "or three", display unexpected input.
-// Try these arguments
-// 5
-// 10
-// "8"
-// "20"
-// "seven"
-// "Fifteen"
-// true
-// null
-// undefined
-// NaN
-
-let userInput = prompt("Please enter your email or username:");

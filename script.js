@@ -83,7 +83,7 @@ switch (color)
 
 // Create a function that will accept a number, if the number given by the user is an odd number, display "odd number". If even number, display "even number".
 
-/*
+
 let number = prompt ("Enter your Number");
 
 function yourNumber (number)
@@ -98,7 +98,7 @@ function yourNumber (number)
     }
 }
 
-*/
+
 
 
 // Create a prompt that will let the user enter values from 0 to 20.
